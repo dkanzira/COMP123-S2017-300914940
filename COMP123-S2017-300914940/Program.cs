@@ -16,6 +16,11 @@ namespace COMP123_S2017_300914940
 {
     public static class Program
     {
+
+        /// <summary>
+        /// This is the reference for the forms
+        /// </summary>
+        public static PickHighestCardForm pickhighestcardForm;
         /// <summary>
         /// The main entry point for the application.
         /// </summary>
@@ -24,6 +29,7 @@ namespace COMP123_S2017_300914940
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
+            pickhighestcardForm = new PickHighestCardForm();
             Application.Run(new SplashForm());
         }
     }
